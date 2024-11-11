@@ -153,8 +153,12 @@ int main()
     // test.func1("coffee! ", 4);
     // test.func2("kceacruanmpedle sluastethev", 28);
     // test.func3("speliknuweorrubs tergudeunfe cestmanlbowctoshac", 47);
-    int f4arr1[6] = {17, 10, 5, 20, 18, 2};
-    std::cout << test.func4(f4arr1, 6) << "\n";
+    // int f4arr1[6] = {17, 10, 5, 20, 18, 2};
+    // std::cout << test.func4(f4arr1, 6) << "\n";
+    // int f5arr1[] = {4, 6, 8, 10, 12};
+    // std::cout << test.func5(f5arr1, 7, 5) << std::endl;
+    // int f6arr1[] = {2, 4, 6, 8, 1, 3, 5, 7, 9, 0};
+    // test.func6(f6arr1, 6, 10);
 
     return 0;
 }

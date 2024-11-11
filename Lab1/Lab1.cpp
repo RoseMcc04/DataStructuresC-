@@ -125,8 +125,8 @@ int main()
     // test.func1("coffee! ", 4);
     // test.func2("kceacruanmpedle sluastethev", 28);
     // test.func3("speliknuweorrubs tergudeunfe cestmanlbowctoshac", 47);
-    // int f4arr1[6] = {17, 10, 5, 20, 18, 2};
-    // std::cout << test.func4(f4arr1, 6) << "\n";
+    int f4arr1[6] = {17, 10, 5, 20, 18, 2};
+    std::cout << test.func4(f4arr1, 6) << "\n";
 
     return 0;
 }

@@ -78,7 +78,35 @@ int Lab1::func5(int arr[], int val, int len)
 
 void Lab1::func6(int arr[], int ind, int len)
 {
-
+    int min = std::numeric_limits<int>::max();
+    int other_i = -1;
+    for (int i = 0; i < len; i++) 
+    {
+        if (arr[i] < min) 
+        {
+            min = arr[i];
+            other_i = i;
+        }
+    }
+    if (ind == other_i) 
+    {
+        for (int i = 0; i < len; i++) 
+        {
+            std::cout << arr[i] << " ";
+        }
+        std::cout << std::endl;
+    }
+    else 
+    {
+        int temp = arr[ind];
+        arr[ind] = arr[other_i];
+        arr[other_i] = temp;
+        for (int i = 0; i < len; i++) 
+        {
+            std::cout << arr[i] << " ";
+        }
+        std::cout << std::endl;
+    }
 }
 
 void Lab1::func7(std::string s, int arr[], int len, int i1, int i2, bool do_pr)
